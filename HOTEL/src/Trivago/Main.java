@@ -15,10 +15,11 @@ public class Main{
 		int opc = 0;
 
 		Titular pancho = new Titular();
+		Hotel trivago = new Hotel();
 
 		pancho.setNombres("Pancho Pantera");
 
-/*
+
 		while(opc != -1){
 
 			System.out.println("Ingresa una opcion");
@@ -41,14 +42,14 @@ public class Main{
 					System.out.println("La salida será:" + salida);
 				;;}
 
-				case 3 -> {
-					System.out.println("Quedan " + habitaciones_restantes + " habitaciones disponibles");;
+				case 3 -> { trivago.mostrar();
+
 				}//case
 
 
 				}//Switch
 
-			}While	*/
+			}//While
 			System.out.println("\n\n\tFin del programa\n");
 			System.out.println("\n\n \t\n" + pancho.nombres	);
 

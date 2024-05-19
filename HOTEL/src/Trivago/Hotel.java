@@ -15,5 +15,14 @@ public class Hotel{
 
 	}//Ocupar
 
+	public void mostrar(){
+	    
+	    for(int i=1; i<33; i++)
+		if (this.habitaciones[i-1] == false)
+		System.out.println("Habitación #" + i +" Disponible");
+
+
+	}
+
 	
 }//Clase
