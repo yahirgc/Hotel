@@ -40,6 +40,9 @@ public class Main{
 					llegada = fechaActual;
 					salida = llegada.withDayOfMonth(días);
 					System.out.println("La salida será:" + salida);
+                                        System.out.println("Escoge una habitación");
+                                        pancho.numHabitacion = x.nextInt();
+                                        Hotel.Ocupar(pancho.numHabitacion);
 				;;}
 
 				case 3 -> { trivago.mostrar();

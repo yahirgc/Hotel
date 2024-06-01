@@ -4,8 +4,8 @@ package Trivago;
 public class Titular{
 
 	public String nombres, apellidos, nacionalidad, correo, tarjeta;
-	private boolean extranjero, efectivo;
-	private int telefono;
+	public boolean extranjero, efectivo;
+	public int telefono, numHabitacion;
 
 	//Setters
 	public void	setNombres(String x)		{	this.nombres = x;	}
