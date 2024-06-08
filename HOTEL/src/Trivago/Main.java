@@ -14,11 +14,8 @@ public class Main{
 		int habitacion_tipo,personas, días;
 		int opc = 0;
 
-		Titular pancho = new Titular();
+	
 		Hotel trivago = new Hotel();
-
-		pancho.setNombres("Pancho Pantera");
-
 
 		while(opc != -1){
 
@@ -47,9 +44,11 @@ public class Main{
 
 				case 3 -> { trivago.mostrar();
 
-				}//case
+				;;}//case
 
 
+                                case 4-> {}
+                                
 				}//Switch
 
 			}//While
