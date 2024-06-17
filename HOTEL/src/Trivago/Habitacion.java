@@ -10,7 +10,7 @@ package Trivago;
  */
 public class Habitacion {
     private Titular titular;
-    private boolean ocupado=false;
+    private Acompañante acompañante;
 
     public Habitacion() {
     }
@@ -23,16 +23,13 @@ public class Habitacion {
         this.titular = titular;
     }
 
-    public boolean Ocupado() {
-        return ocupado;
+    public Acompañante getAcompañante() {
+        return acompañante;
     }
 
-    public void setOcupado(boolean ocupado) {
-        this.ocupado = ocupado;
+    public void setAcompañante(Acompañante acompañante) {
+        this.acompañante = acompañante;
     }
-    
-    
-    
     
     
 }
